@@ -13,3 +13,14 @@ body{
     background: #966e4f;
     font-family: 'roboto', sans-serif;
 }
+body::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) skewX(-15deg);
+    width: 20px;
+    height: 100%;
+    background: #966e4f;
+    border-left: 60px solid #eae3d2;
+    border-right: 30px solid #eae3d2;
+}
