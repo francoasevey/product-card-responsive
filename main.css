@@ -24,3 +24,13 @@ body::before{
     border-left: 60px solid #eae3d2;
     border-right: 30px solid #eae3d2;
 }
+.product{
+    position: relative;
+    width: 1000px;
+    min-width: 350px;
+    min-height: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
