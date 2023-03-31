@@ -46,3 +46,13 @@ body::before{
     object-fit: contain;
     user-select: none;
 }
+.product-listing{
+    width: 60%;
+    min-height: 500px;
+    height: auto;
+    background: #292929;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    color: #eae3d2;
+}
