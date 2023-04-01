@@ -70,6 +70,15 @@ body::before{
     display: flex;
     justify-content: center;
     color: #eae3d2;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fade-in 1s forwards 1;
+}
+@keyframes fade-in{
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 .name{
     font-family: 'dosis';
