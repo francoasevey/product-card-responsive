@@ -89,5 +89,16 @@ body::before{
 .btn-and-rating-box{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.rating{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rating img{
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
 }
